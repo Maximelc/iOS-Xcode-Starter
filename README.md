@@ -49,7 +49,7 @@ Open Xcode > File > New File scroll down and you'll see a template section !
 | pragmaMark                | Insert pragma mark                                                 | mark           |
 | UIStoryboardSeguePrepare  | Insert implementation of UIStoryboardSegue prepare function        | segueNavigation|
 
-😇 Instead of using `UITableViewProtocols` & `UICollectionViewProtocols` snippets, you can use [UITableViewDataSource](https://github.com/Maximelc/iOS-Starter/blob/master/Xcode/FilesTemplates/Custom.xctemplate/UITableViewDataSource/___FILEBASENAME___.swift) & [UICollectionViewDataSource](https://github.com/Maximelc/iOS-Starter/blob/master/Xcode/FilesTemplates/Custom.xctemplate/UICollectionViewDataSource/___FILEBASENAME___.swift) file template ([section #2](https://github.com/Maximelc/iOS-Starter#2-xcode-templates)).
+😇 Instead of using `UITableViewProtocols` & `UICollectionViewProtocols` snippets, you can use [UITableViewDataSource](https://github.com/Maximelc/iOS-Xcode-Starter/blob/master/Xcode/FilesTemplates/Custom.xctemplate/UITableViewDataSource/___FILEBASENAME___.swift) & [UICollectionViewDataSource](https://github.com/Maximelc/iOS-Xcode-Starter/blob/master/Xcode/FilesTemplates/Custom.xctemplate/UICollectionViewDataSource/___FILEBASENAME___.swift) file template ([section #1](https://github.com/Maximelc/iOS-Xcode-Starter#1-xcode-templates)).
 
 ### Instalation:
 To install Xcode snippets clone this repository execute script in `Xcode/Snippets/addToXcode.sh`
