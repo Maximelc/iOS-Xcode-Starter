@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tvSetup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private func setupTableView() {
+        self.&lt;#myTableView#&gt;.delegate = self
+        self.&lt;#myTableView#&gt;.dataSource = self
+        self.&lt;#myTableView#&gt;.tableHeaderView = nil
+        self.&lt;#myTableView#&gt;.tableFooterView = UIView()
+        self.&lt;#myTableView#&gt;.separatorInset = .zero
+        self.&lt;#myTableView#&gt;.estimatedRowHeight = 44
+        self.&lt;#myTableView#&gt;.rowHeight = UITableView.automaticDimension
+
+        // register custom cell
+        self.&lt;#myTableView#&gt;.register(cellType: &lt;#customTableViewCell#&gt;.self)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A6C7E70E-FDBD-455C-B8A0-1679E5000B98</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Configure UITableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableView Setup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

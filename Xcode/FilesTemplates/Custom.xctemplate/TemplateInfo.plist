@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Cocoa Touch class.</string>
+	<key>Summary</key>
+	<string>A Cocoa Touch class</string>
+	<key>SortOrder</key>
+	<string>8</string>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>cocoaSubclass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>UIView</string>
+			<key>FallbackHeader</key>
+			<string>import UIKit</string>
+			<key>Values</key>
+			<array>
+				<string>UIView</string>
+				<string>UIViewController</string>
+				<string>UITableViewCell</string>
+				<string>UICollectionViewCell</string>
+				<string>RealmModel</string>
+				<string>UITableViewDataSource</string>
+				<string>UICollectionDataSource</string>
+			</array>
+			<key>Suffixes</key>
+			<dict>
+				<key>UIView</key>
+				<string>View</string>
+				<key>UIViewController</key>
+				<string>ViewController</string>
+				<key>UITableViewCell</key>
+				<string>TableViewCell</string>
+				<key>UICollectionViewCell</key>
+				<string>CollectionViewCell</string>
+				<key>UITableViewDataSource</key>
+				<string>DataSource</string>
+				<key>UICollectionDataSource</key>
+				<string>DataSource</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaSubclass</key>
+				<array>
+					<string>UIView</string>
+					<string>UITableViewCell</string>
+					<string>UICollectionViewCell</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

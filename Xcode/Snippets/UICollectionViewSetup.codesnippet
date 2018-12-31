@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cvSetup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private func setupCollectionView() {
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: &lt;#T##CGFloat#&gt;, left: &lt;#T##CGFloat#&gt;, bottom: &lt;#T##CGFloat#&gt;, right: &lt;#T##CGFloat#&gt;)
+        layout.itemSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+        layout.scrollDirection = &lt;#UICollectionViewScrollDirection#&gt;
+        layout.minimumInteritemSpacing = &lt;#integerValue#&gt;
+        layout.minimumLineSpacing = &lt;#integerValue#&gt;
+
+        self.&lt;#myCollectionView#&gt;.delegate = self
+        self.&lt;#myCollectionView#&gt;.dataSource = self
+        self.&lt;#myCollectionView#&gt;.collectionViewLayout = layout
+
+        // register custom cell
+        self.&lt;#myCollectionView#&gt;.register(cellType: &lt;#customCollectionViewCell#&gt;.self)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D9BC3970-5571-4583-9FB5-E1E4B553B8E5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Configure UICollectionView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView Setup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
