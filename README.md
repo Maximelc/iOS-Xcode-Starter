@@ -1,6 +1,9 @@
 # iOS-Xcode-Starter
 Templates and snippets for iOS Developer using Xcode.
 
+>Project templates with Liftoff cannot be released publicly for now.
+>Feel free to contact me about it.
+
 ## Repository details
 |        Name       |                             Description                            |         Instalation script         |
 |:-----------------:|:------------------------------------------------------------------:|:----------------------------------:|
